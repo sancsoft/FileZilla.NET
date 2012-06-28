@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <setting key="InstancePageTitle">[LOCAL]</setting>
+  <setting key="InstanceName">Test Configuration</setting>
+  <setting key="ConfigurationFile">C:\Program Files (x86)\FileZilla Server\FileZilla Server.xml</setting>
+  <setting key="ServerExecutable">C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe</setting>
+  <setting key="NewUserRoot"></setting>
+  <setting key="ForceSSL">false</setting>
+  <setting key="ContactEMail"></setting>
+  <setting key="FTPUrl"></setting>
+  <setting key="HTTPUrl"></setting>
+  <setting key="Welcome">FileZilla.NET provides an online file transfer interface for use through popular web browsers or with standard FTP client applications. Additional information is available on the home page of the web interface.</setting>
+  
+  <setting key="EmailAccount"></setting>
+  <setting key="EmailPassword"></setting>
+  <setting key="EmailSender"></setting>
+  <setting key="EmailReplyTo"></setting>
+  <setting key="EmailSenderName">FileZilla.NET</setting>
+  <setting key="EmailServer"></setting>
+  <setting key="EmailRecipients"></setting>
+  <setting key="EmailPort">25</setting>
+  
+  <setting key="ThumbnailFolder">~/thumb</setting>
+  <setting key="AllowCreate">true</setting>
+  <setting key="AllowRename">true</setting>
+  <setting key="AllowMove">false</setting>
+  <setting key="AllowDelete">true</setting>
+  <setting key="AllowReplace">true</setting>
+  <setting key="ShowFolderIcons">true</setting>
+  <setting key="ShowDownloadButton">true</setting>
+  <setting key="MaxFileSize">0</setting>
+  <setting key="UseAdvancedUploadMode">true</setting>
+  <setting key="EnableMultiSelect">true</setting>
+  <setting key="MinPasswordLength">6</setting>
+</settings>

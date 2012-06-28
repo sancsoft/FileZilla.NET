@@ -1,0 +1,69 @@
+﻿/******************************************************************************
+ * Filename: Styles/Site.css
+ * Project:  FileZilla.NET
+ * 
+ * Description:
+ * Global stylesheet for the web application
+ * 
+******************************************************************************/
+/* Site Configuration */
+body { margin:12px auto 12px auto; background-color:#666666; }
+font, th, td, p, span, div, textarea, input, select, a { font-family:Verdana, Arial, Helvetica, Sans-Serif; font-size:11px; color:#000000; }
+h1, h2, h3, h4, h5 { margin:0px 0px 5px 0px; color:#000000; }
+h1 { font-size:18px; font-weight:bold; text-transform:uppercase; color:#666666; }
+h2 { font-size:17px; font-weight:bold; text-transform:uppercase; color:#666666; }
+h3 { color:#666666; }
+h4 { font-size:13px; font-weight:bold; color:#666666; }
+h5 { font-size:12px; font-weight:bold; color:#666666; }
+a { font-weight:bold; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:0px; }
+.xBrowserHR { height:12px; margin:0px auto 12px auto; border-bottom:1px solid #666666; }
+.wikiBrowserHR { height:4px; margin:0px auto 4px auto; border-bottom:1px solid #666666; }
+
+/* Page Layout */
+#Page { width:994px; margin:0px auto; border:1px solid #000000; text-align:left; background-color:#ffffff; }
+#PageHeader { padding:12px 12px 12px 12px; background-color:#000000; }
+#PageHeaderTop { color:#ffffff; }
+#PageHeaderTopLogin { float:right; font-size:11px; font-weight:bold; text-align:right; color:#ffffff; }
+#PageHeaderTopLogin a { font-size:11px; font-weight:bold; text-align:right; color:#ffffff; }
+#PageBody { padding:0px; min-height:500px; }
+#PageFooter { height:54px; background-color:#000000; color:#ffffff; clear:both; }
+#PageFooter div { text-align:right; color:#ffffff; padding-top:10px; padding-right:10px; }
+#LogoText_FileZilla { font-size:20px; font-weight:bold; color:#cc0000; }
+#LogoText_DOTNET { font-size:20px; font-weight:bold; color:#ffffff; }
+.InstanceName { font-size:16px; font-weight:bold; color:#ffffff; }
+
+/* Main Navigation */
+#MainNav { height:24px; padding-right:10px; border-bottom:1px solid #000000; text-align:right; background-color:#cccccc; background-image:url(images/BackgroundMainNav.gif); }
+#MainNav ul { list-style:none; margin:0px; padding:0px; line-height:24px; }
+#MainNav ul li { display:inline; margin:0px 0px 0px 14px; font-weight:bold; }
+#MainNav ul li a { font-size:10px; text-decoration:none; }
+#MainNav ul li a:hover { text-decoration:underline; }
+#MainNavTitle { color:#666666; margin-right:22px; }
+
+/* Form Display */
+.FormTable { width:100%; margin-top:8px; border:1px solid #666666; clear:both; }
+.FormTable tr td { padding:2px 2px 2px 2px; border:0px; }
+.FormHeader { height:22px; background-image:url(images/BackgroundTableHeader.gif); font-weight:bold; text-transform:uppercase; }
+.FormSubHeader { height:22px; background-image:url(images/BackgroundTableHeader.gif); font-weight:bold; }
+.FormField { height:18px; background-color:#dddddd; font-weight:bold; }
+.FormField span { font-weight:normal; }
+.FormValue { height:18px; background-color:#eeeeee; }
+.FormTableInfo { float:left; margin:8px auto auto 6px; }
+.FormButton { width:120px; height:22px; margin-top:8px; font-family:Verdana, Arial, Helvetica, Sans-Serif; font-size:9px; font-weight:bold; text-transform:uppercase; }
+
+/* footer notices */
+.notice { background-color:#cccccc; color:#666666; text-align:center; padding:5px; }
+.notice a { color:#666666; }
+
+/* List GridView Styles */
+.dxgvControlTabbed { margin-top:0px !important; }
+.dxgvControl { margin-top:8px; }
+.dxgvHeader { background-image:url(images/GridViewHeader.jpg); background-repeat:repeat-x; }
+.dxgvHeader tr td { font-weight:bold; }
+.dxgvPagerBottomPanel { background-color:#dddddd; }
+.dxgv a { color:#000000; text-decoration:none; font-weight:normal; }
+.dxgv a:hover { text-decoration:underline; }
+.dxgvDataRow { background-color:#ffffff; }
+.dxgvDataRowAlt { background-color:#eeeeee; }

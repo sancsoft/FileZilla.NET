@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head runat="server">
+    <title>FileZilla.NET by )|( Sanctuary Software Studio, Inc.</title>
+    <link href="site.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="js/modernizr-1.6.min.js"></script>
+    <script type="text/javascript" src="js/Silverlight.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="SiteMasterForm" runat="server">
+    <div id="Page">
+        <div id="PageHeader">
+            <div id="PageHeaderTop">
+                <asp:Panel ID="AccountPanel" runat="server">
+                    <div id="PageHeaderTopLogin">
+                        Account: <asp:Literal ID="AccountLiteral" runat="server" /><br />
+                        &raquo;<a href="Default.aspx">Browse</a>&nbsp;
+                        &raquo;<a href="Help.aspx">Help</a>&nbsp;
+                        &raquo;<a href="Logout.aspx">Log Out</a><br />
+                    </div>
+                </asp:Panel>
+                <a href="Default.aspx"><img src="images/Logo.png" height="48" width="48" style="float:left;margin-right:10px;" alt="" title="FileZilla.NET"/></a>
+                <a href="Default.aspx"><span id="LogoText_FileZilla">FileZilla</span><span id="LogoText_DOTNET">.NET</span></a><br />
+                Web-based file transfer integrated with FileZilla FTP Server.
+            </div>
+            <div class="xBrowserHR" style="margin-bottom: 8px;"></div>
+            <asp:Label ID="InstanceNameLabel" runat="server" Text="Instance Name" CssClass="InstanceName" />
+            <div style="clear:both;"><span></span></div>
+        </div>
+        <div id="PageBody">
+            <asp:ContentPlaceHolder id="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="PageFooter">
+            <a href="http://www.sancsoft.com"><img src="images/footerlogo.png" style="float:left;margin:10px 0px 0px 10px;" alt="" /></a>
+            <div>Copyright &copy;2009-<%= DateTime.Now.Year.ToString() %> )|( Sanctuary Software Studio, Inc. All rights reserved.<br />
+            Unauthorized access is prohibited. Version <asp:Literal ID="VersionLiteral" runat="server" />  </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<versions>
+<version major="1" minor="0" patch="0" build="0001">Initial build</version>
+<version major="1" minor="0" patch="0" build="0002">Initial user testing of system on spike with client accounts</version>
+<version major="1" minor="0" patch="0" build="0003">Added logging, landing page docs, custom icons</version>
+<version major="1" minor="0" patch="0" build="0004">Corrections and tweaks based on initial alpha testing</version>
+<version major="1" minor="0" patch="0" build="0005">Add online help</version>
+<version major="1" minor="0" patch="1" build="0006">Administration development; defect corrections</version>
+<version major="1" minor="1" patch="0" build="0007">Release of administration interface</version>
+<version major="1" minor="1" patch="0" build="0008">Validation corrections</version>
+<version major="1" minor="2" patch="0" build="0009">Added notification messages</version>
+<version major="1" minor="3" patch="0" build="0010">Support for large file downloads</version>
+<version major="1" minor="3" patch="0" build="0011">Modifications to download handler for large files</version>
+<version major="1" minor="4" patch="0" build="0012">Updates to account creation in administration</version>
+<version major="1" minor="4" patch="0" build="0013">Fixed download tracking in activity logs</version>
+</versions>
